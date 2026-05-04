@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaSprint Academy | Bootcamp e comunidade tech</title>
+    <meta
+      name="description"
+      content="Landing page conceitual de uma escola tech com roadmap interativo, contador animado, mini editor e wall de certificados."
+    />
+    <meta name="theme-color" content="#eff4ec" />
+    <link rel="icon" href="src/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="src/styles/main.css?v=3" />
+    <script src="src/scripts/main.js?v=2" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="Ir para o início da página">NovaSprint Academy</a>
+      <nav aria-label="Navegação principal">
+        <a href="#roadmap">Roadmap</a>
+        <a href="#lab">Code Lab</a>
+        <a href="#comunidade">Comunidade</a>
+        <a href="#oferta">Oferta</a>
+      </nav>
+      <a class="button" href="#oferta">Garantir vaga</a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <span class="eyebrow">Formação tech com projeto, ritmo e comunidade</span>
+          <h1 id="heroTitle">
+            Aprenda design e programação com uma trilha prática, visual e orientada a resultado.
+          </h1>
+          <p class="hero-lead">
+            Uma landing page autoral para apresentar evolução profissional com linguagem de produto
+            digital, prova social, clareza de jornada e interações de alto valor percebido.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button" href="#oferta">Entrar na próxima turma</a>
+            <a class="button secondary" href="#roadmap">Ver jornada</a>
+          </div>
+
+          <ul class="stat-list" aria-label="Destaques do programa">
+            <li>
+              <strong>06 meses</strong>
+              <span>Trilha guiada com checkpoints progressivos.</span>
+            </li>
+            <li>
+              <strong>Projetos reais</strong>
+              <span>Entrega prática com foco em portfólio profissional.</span>
+            </li>
+            <li>
+              <strong>Mentoria contínua</strong>
+              <span>Acompanhamento com comunidade e revisão de evolução.</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="community-card" id="comunidade" aria-labelledby="communityTitle">
+          <span class="eyebrow">Comunidade ativa</span>
+          <h2 id="communityTitle">Uma rede que acompanha seu ritmo de evolução</h2>
+          <p>
+            A experiência combina estudo estruturado, comunidade acessível e repertório de produto
+            para transformar aprendizado técnico em entrega consistente.
+          </p>
+
+          <div class="avatar-stack" role="list" aria-label="Especialistas da comunidade">
+            <button
+              type="button"
+              class="avatar"
+              role="listitem"
+              data-name="Aline"
+              data-role="UX Design"
+              aria-label="Aline, UX Design"
+            >
+              A
+            </button>
+            <button
+              type="button"
+              class="avatar"
+              role="listitem"
+              data-name="Bruno"
+              data-role="Front-end"
+              aria-label="Bruno, Front-end"
+            >
+              B
+            </button>
+            <button
+              type="button"
+              class="avatar"
+              role="listitem"
+              data-name="Caio"
+              data-role="Dados"
+              aria-label="Caio, Dados"
+            >
+              C
+            </button>
+            <button
+              type="button"
+              class="avatar"
+              role="listitem"
+              data-name="Duda"
+              data-role="Back-end"
+              aria-label="Duda, Back-end"
+            >
+              D
+            </button>
+            <button
+              type="button"
+              class="avatar"
+              role="listitem"
+              data-name="Enzo"
+              data-role="Produto"
+              aria-label="Enzo, Produto"
+            >
+              E
+            </button>
+          </div>
+
+          <p class="avatar-hint" id="avatarName" aria-live="polite" aria-atomic="true">
+            Selecione um perfil para conhecer uma especialidade da comunidade.
+          </p>
+
+          <ul class="community-highlights" aria-label="Diferenciais da comunidade">
+            <li>Encontros semanais com feedback de projeto.</li>
+            <li>Material de apoio com progressão clara.</li>
+            <li>Ambiente acessível para networking e prática.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="slot-section" aria-labelledby="slotTitle">
+        <div class="section-head compact">
+          <span class="eyebrow">Resultados em escala</span>
+          <h2 id="slotTitle">Formações concluídas com consistência e apoio contínuo</h2>
+          <p>
+            O contador reforça percepção de volume sem perder leitura. Ele respeita usuários com
+            redução de movimento e mantém um valor textual estável.
+          </p>
+        </div>
+
+        <div class="slot-card">
+          <div
+            class="slot-machine"
+            id="slotMachine"
+            role="img"
+            aria-label="Contador animado de 12.480 alunos formados"
+          >
+            <div class="slot-window"><div class="slot-reel"></div></div>
+            <div class="slot-window"><div class="slot-reel"></div></div>
+            <div class="slot-window"><div class="slot-reel"></div></div>
+            <div class="slot-window"><div class="slot-reel"></div></div>
+            <div class="slot-window"><div class="slot-reel"></div></div>
+          </div>
+          <p class="slot-caption">
+            <strong id="slotValue">12.480</strong> matrículas concluídas em trilhas orientadas a
+            carreira.
+          </p>
+        </div>
+      </section>
+
+      <section class="roadmap" id="roadmap" aria-labelledby="roadmapTitle">
+        <div class="section-head">
+          <span class="eyebrow">Roadmap interativo</span>
+          <h2 id="roadmapTitle">Uma trilha clara, progressiva e centrada em entregas reais</h2>
+          <p>
+            Cada módulo explica duração, foco e tipo de entrega. A experiência foi mantida simples,
+            mas agora com melhor hierarquia, estados e leitura em todos os breakpoints.
+          </p>
+        </div>
+
+        <div class="roadmap-progress" aria-hidden="true">
+          <span class="roadmap-fill" id="roadmapFill"></span>
+        </div>
+
+        <div class="roadmap-track" role="tablist" aria-label="Módulos da formação">
+          <button
+            class="checkpoint is-active"
+            id="checkpoint-fundamentos"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="roadmapDetail"
+            data-module="fundamentos"
+          >
+            01 Fundamentos
+          </button>
+          <button
+            class="checkpoint"
+            id="checkpoint-produto"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="roadmapDetail"
+            data-module="produto"
+          >
+            02 Produto
+          </button>
+          <button
+            class="checkpoint"
+            id="checkpoint-frontend"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="roadmapDetail"
+            data-module="frontend"
+          >
+            03 Front-end
+          </button>
+          <button
+            class="checkpoint"
+            id="checkpoint-backend"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="roadmapDetail"
+            data-module="backend"
+          >
+            04 Back-end
+          </button>
+          <button
+            class="checkpoint"
+            id="checkpoint-carreira"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="roadmapDetail"
+            data-module="carreira"
+          >
+            05 Carreira
+          </button>
+        </div>
+
+        <div class="roadmap-detail" id="roadmapDetail" role="tabpanel" aria-live="polite"></div>
+      </section>
+
+      <section class="lab" id="lab" aria-labelledby="labTitle">
+        <div class="section-head">
+          <span class="eyebrow">Mini editor de código vivo</span>
+          <h2 id="labTitle">Clique em Run e veja o código disparar uma microinteração controlada</h2>
+          <p>
+            O laboratório visual continua simples e seguro. O código não executa input arbitrário;
+            apenas aciona uma prévia previsível, com feedback leve e sem ruído excessivo.
+          </p>
+        </div>
+
+        <div class="lab-grid">
+          <div class="editor-shell">
+            <div class="editor-top" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <strong>pulse-card.js</strong>
+            </div>
+            <pre class="editor-code"><code>const card = document.querySelector('.preview-card');
+card.classList.remove('is-running');
+void card.offsetWidth;
+card.classList.add('is-running');</code></pre>
+            <button class="button" id="runPreview" type="button">Run</button>
+          </div>
+
+          <div class="preview-shell" aria-labelledby="previewTitle">
+            <div class="preview-card" id="previewCard">
+              <span class="preview-orb" aria-hidden="true"></span>
+              <strong id="previewTitle">Projeto publicado</strong>
+              <p>Uma microinteração visual controlada pelo código ao lado.</p>
+            </div>
+            <p class="sr-only" id="previewStatus" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificates" aria-labelledby="certTitle">
+        <div class="section-head">
+          <span class="eyebrow">Wall de certificados</span>
+          <h2 id="certTitle">Selos com acabamento profissional e detalhes em overlay</h2>
+          <p>
+            Os cards ficaram menos vazios, com melhor densidade visual e estados mais claros para
+            hover, foco e teclado.
+          </p>
+        </div>
+
+        <div class="certificate-grid">
+          <button
+            class="certificate-card"
+            type="button"
+            data-title="Front-end Systems"
+            data-text="Trilha focada em componentes, performance, acessibilidade e consistência visual."
+          >
+            <span class="certificate-chip">Certificação</span>
+            <strong>Front-end Systems</strong>
+            <span class="certificate-meta">Componentes, ritmo visual e qualidade de interface.</span>
+          </button>
+          <button
+            class="certificate-card"
+            type="button"
+            data-title="API Builder"
+            data-text="Módulo de APIs, autenticação, integração de dados e fundamentos de back-end."
+          >
+            <span class="certificate-chip">Certificação</span>
+            <strong>API Builder</strong>
+            <span class="certificate-meta">Estrutura, validação e consumo confiável de dados.</span>
+          </button>
+          <button
+            class="certificate-card"
+            type="button"
+            data-title="UI Motion Craft"
+            data-text="Certificação em ritmo visual, microinterações úteis e transições com intenção."
+          >
+            <span class="certificate-chip">Certificação</span>
+            <strong>UI Motion Craft</strong>
+            <span class="certificate-meta">Motion sutil para reforçar hierarquia e ação.</span>
+          </button>
+          <button
+            class="certificate-card"
+            type="button"
+            data-title="Career Launch"
+            data-text="Preparação de portfólio, narrativa profissional e simulação de entrevistas."
+          >
+            <span class="certificate-chip">Certificação</span>
+            <strong>Career Launch</strong>
+            <span class="certificate-meta">Portfólio, posicionamento e apresentação profissional.</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="offer" id="oferta" aria-labelledby="offerTitle">
+        <div class="offer-copy">
+          <span class="eyebrow">Oferta relâmpago</span>
+          <h2 id="offerTitle">Matrícula com desconto para a próxima turma</h2>
+          <p>
+            Condição válida para a próxima janela de entrada, com posicionamento claro de urgência
+            e CTA objetivo.
+          </p>
+        </div>
+
+        <div class="offer-aside">
+          <div class="countdown" id="countdown" aria-live="polite" aria-atomic="true">
+            <div><strong id="days">00</strong><span>d</span></div>
+            <div><strong id="hours">00</strong><span>h</span></div>
+            <div><strong id="minutes">00</strong><span>m</span></div>
+            <div><strong id="seconds">00</strong><span>s</span></div>
+          </div>
+          <p id="countdownMessage">Encerramento da condição especial em andamento.</p>
+          <a class="button secondary" href="#hero">Solicitar a ementa</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><strong>NovaSprint Academy</strong> — experiência educacional fictícia para portfólio.</p>
+      <a href="mailto:contato@empresa.com">contato@empresa.com</a>
+    </footer>
+
+    <div class="modal" id="certificateModal" hidden>
+      <div
+        class="modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+        aria-describedby="modalText"
+        tabindex="-1"
+      >
+        <button
+          class="modal-close"
+          id="closeModal"
+          type="button"
+          aria-label="Fechar detalhes do certificado"
+        >
+          ×
+        </button>
+        <span class="eyebrow">Certificação</span>
+        <h3 id="modalTitle">Título</h3>
+        <p id="modalText">Descrição</p>
+      </div>
+    </div>
+  </body>
+</html>

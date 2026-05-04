@@ -1,0 +1,14 @@
+{
+  "name": "novasprint-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page estática para portfólio com fluxo mínimo de dev e build para Vercel.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev.mjs dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
